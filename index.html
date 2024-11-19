@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고려사이버대학교</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            height: 600px;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #007BFF;
+        }
+        .contact-section {
+            background-color: #f8f9fa;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div>
+            <h1>고려사이버대학교</h1>
+            <p>미래를 여는 온라인 학습</p>
+            <a href="#about" class="btn btn-primary btn-lg">자세히 알아보기</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+        <h2 class="text-center mb-4">고려사이버대학교 소개</h2>
+        <p class="text-center">고려사이버대학교는 시간과 장소의 제약을 넘어선 온라인 학습 환경을 제공합니다. 다양한 학과와 프로그램을 통해 여러분의 꿈을 실현하세요!</p>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="feature-icon mb-3">🎓</div>
+                <h5>전문 학위 프로그램</h5>
+                <p>경영학, 컴퓨터공학, 심리학 등 다양한 학위 과정을 제공합니다.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-icon mb-3">🌐</div>
+                <h5>글로벌 교육</h5>
+                <p>다양한 국가의 학생들과 함께하는 학습 환경을 경험하세요.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-icon mb-3">💼</div>
+                <h5>취업 지원</h5>
+                <p>졸업 후 취업과 경력 개발을 돕는 지원 서비스를 제공합니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">학과 소개</h2>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">컴퓨터공학과</h5>
+                            <p class="card-text">최신 기술과 실무를 겸비한 교육 과정으로 IT 전문가로 성장하세요.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">경영학과</h5>
+                            <p class="card-text">비즈니스 리더가 되기 위한 체계적인 학습을 제공합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="text-center mb-4">문의하기</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">이름</label>
+                    <input type="text" class="form-control" id="name" placeholder="이름을 입력하세요">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">이메일</label>
+                    <input type="email" class="form-control" id="email" placeholder="이메일을 입력하세요">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">문의 내용</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="문의 내용을 입력하세요"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">문의하기</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 고려사이버대학교 | 이메일: info@globalcyberedu.edu | 연락처: +82-2-0000-0000</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
